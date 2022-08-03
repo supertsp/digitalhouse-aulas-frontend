@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>        
+        const idade = 10
+        let nome = "tiago"
+        let ehMaiorDeIdade = false
+        let arrayOuLista = [44, 25, 39]
+
+        for (let indice = 0; indice < arrayOuLista.length; indice++) {
+            let soma = arrayOuLista[indice] + 5
+            console.log(soma)
+        }
+
+        console.log("separção")
+
+        arrayOuLista.forEach((elemento) => {
+            console.log(elemento)
+        })
+
+        console.log(idade, nome, ehMaiorDeIdade, arrayOuLista)
+        console.log(idade + " " + nome + " " + ehMaiorDeIdade)
+
+
+        // SPOILERS !!!!!!
+        console.log("SPOILERS!!!")
+
+        const array = [1, 2, 3, 4, 5, 6, 7]
+
+       
+        
+        
+       function somaIssoAi(listaDeNumeros) {
+            let soma = 0;
+
+           for (let indice = 0; indice < listaDeNumeros.length; indice++) {
+               soma = soma + listaDeNumeros[indice]
+               console.log(soma);
+           }
+       }
+
+       console.log("Valor final")
+       somaIssoAi(array)
+
+    </script>
+
+</body>
+</html>
