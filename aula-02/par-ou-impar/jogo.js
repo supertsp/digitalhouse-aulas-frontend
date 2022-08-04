@@ -14,17 +14,19 @@ console.log(
     "\nehPar", ehPar
 )
 
-//O jogo
-while([vai ter uma condição]) {
+/*===============================
+        O jogo
+=============================== */
+while(contVitoriasJogador < 2 && contVitoriasCpu < 2) {
     sorteiaNumero()
     descobreVencedor()
 }
 
 
 
-
-
-//functions
+/*===============================
+        functions
+=============================== */
 function sorteiaNumero() {
     numeroSorteado = parseInt(Math.random() * 10) + 1
 }
