@@ -22,7 +22,11 @@ while(contVitoriasJogador < 2 && contVitoriasCpu < 2) {
     descobreVencedor()
 }
 
-
+if (contVitoriasJogador >= 2) {
+    console.log("🎉 Parabéns Jogador 🎉")
+} else {
+    console.log("Infelimente o Computador ganhou 👾")
+}
 
 /*===============================
         functions
