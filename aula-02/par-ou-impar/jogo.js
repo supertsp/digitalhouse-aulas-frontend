@@ -25,7 +25,7 @@ while(contVitoriasJogador < 2 && contVitoriasCpu < 2) {
 if (contVitoriasJogador >= 2) {
     console.log("🎉 Parabéns Jogador 🎉")
 } else {
-    console.log("Infelimente o Computador ganhou 👾")
+    console.log("Infelimente o Computador ganhou 👾❤️")
 }
 
 /*===============================
