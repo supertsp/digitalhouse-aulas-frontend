@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(0, 134, 72);
+}
+
+section {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#galeria {
+    width: 100%;
+    text-align: center;
+}
+
+#galeria img {
+    width: 300px;
+    margin-right: 5px;
+}
+
+#galeria img:hover {
+    box-shadow: 1px 1px 5px 5px rgb(94, 211, 162);
+}
+
+input, button {
+    text-align: center;
+    font-size: 20px;
+
+    border-radius: 3px;
+    border: 2px solid rgb(22, 94, 4);
+
+    width: 300px;
+}
+
+input {
+    color: rgb(50, 100, 75);
+    font-weight: bold;
+    font-style: italic;
+}
+
+input:hover {
+    box-shadow: 1px 1px 5px 5px rgb(94, 211, 162);
+}
+
+input:disabled {
+    border: 2px solid rgb(2, 139, 55);
+    background-color: rgb(142, 168, 99);
+    font-weight: bold;    
+}
+
+input:disabled:hover {
+    box-shadow: 1px 1px 5px 5px rgb(150, 211, 94);
+}
+
+.input-url-imagem {
+    display: block;
+
+    margin: 20px 0px;
+}
+
+button {
+    background-color: rgb(11, 119, 7);
+    color: rgb(118, 221, 169);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(19, 184, 13);
+    color: rgb(43, 92, 67);
+    box-shadow: 1px 1px 5px 5px rgb(141, 211, 94);
+}
+

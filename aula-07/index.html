@@ -4,36 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <title>Galeria de Imagens</title>
 </head>
 <body>
 
-    <h1>Galeria de Imagens</h1>
-    <input 
-            type="text" 
-            id="urlImagem1" 
-            placeholder="Digite uma URL de imagem"
-            onmouseover="ganhouFocoInput1()"
-            onblur="perdeuFocoInput1()"
-            />
-    <input 
-            type="text" 
-            id="urlImagem2" 
-            placeholder="Digite uma URL de imagem"/>
-    <input 
-            type="text" 
-            id="urlImagem3" 
-            placeholder="Digite uma URL de imagem"/>
+    <section>
+        <h1>Galeria de Imagens</h1>
+        
+        <label for="urlImagem1" class="input-url-imagem">
+            <input type="text" name="urlImagem1" placeholder="URL da 1ª imagem"/>
+        </label>
+        
+        <label for="urlImagem2" class="input-url-imagem">
+            <input type="text" name="urlImagem2" placeholder="URL da 2ª imagem" />
+        </label>
+        
+        <label for="urlImagem3" class="input-url-imagem">
+            <input type="text" name="urlImagem3" placeholder="URL da 3ª imagem" />
+        </label>
+        
+        
+        <button>Enviar</button>
+    </section>
 
-    <button onclick="cliqueiEnviar()">Enviar</button>
     <hr>
 
     <div id="galeria"></div>
-
-    <!-- <img src="https://httpstatusdogs.com/img/202.jpg" alt="">
-    <img src="https://httpstatusdogs.com/img/202.jpg" alt="">
-    <img src="https://httpstatusdogs.com/img/202.jpg" alt=""> -->
-
 
     <script src="scripts/criaGaleriaImagens.js"></script>
 </body>
