@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+}
+
+p, div {
+    margin-bottom: 20px;
+}
+
+.w3-container,
+.w3-card,
+.w3-card-2,
+.w3-card-4 {
+    margin: 10px 5px;
+}
+
+.w3-container {
+    background-color: rgb(88, 88, 88);
+}
+
+.w3-card,
+.w3-card-2,
+.w3-card-4 {
+    background-color: rgb(105, 60, 60);
+}
+
+input[type=text],
+input[type=checkbox] {
+    background-color: transparent;
+    color: #fff;
+}
+
+select {
+    background-color: transparent;
+    /* color: #fff; */
+}
+
+.checkbox,
+.radio-button {
+    margin-right: 30px;
+}
+
+textarea {
+    width: 100%;
+    background-color: rgb(104, 104, 104);
+    color: #fff;
+}
+
+#input-area,
+#result-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

@@ -9,7 +9,7 @@ adicionarEventoParaInputs(inputs, "blur")
 buttonEnviar.onclick = enviarUrls
 
 //funções
-function enviarUrls() {
+function enviarUrls(nomeUrl, dataUrl) {
     limparGaleria()
     habilitarInputs(inputs)    
     adiconarImagensNaGaleria(inputs)    
