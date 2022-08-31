@@ -1,3 +1,15 @@
+let nomeUsuario = localStorage.getItem("nomeUsuario")
+console.log(nomeUsuario)
+if (nomeUsuario === null) {
+    nomeUsuario = prompt("Qual é o seu nome?")
+    console.log(nomeUsuario)
+    localStorage.setItem("nomeUsuario", nomeUsuario)
+    document.getElementById("nomeUsuario").innerHTML = nomeUsuario
+} else {
+    document.getElementById("nomeUsuario").innerHTML = nomeUsuario
+}
+
+
 let form = document.querySelector("form")
 // let form = document.forms["formHobbies"]
 
@@ -18,7 +30,7 @@ form.addEventListener("submit", (evento) => {
 })
 
 
-let titulo =  form["titulo"]
+let titulo = form["titulo"]
 
 titulo.onblur = () => {     
     titulo.value = titulo.value.toLocaleUpperCase()
@@ -31,6 +43,17 @@ titulo.onblur = () => {
         tagErro.innerHTML = ""
     }   
 
+}
+
+let categoria = form["categoria"]
+categoria.onblur = () => {
+    const tagErro = categoria.parentElement.children[2]
+
+    if (categoria.value === "") {
+        tagErro.innerHTML = "Esse campo não pode ser em branco"
+    } else {
+        tagErro.innerHTML = ""
+    }
 }
 
 //outros eventos principais de forms
