@@ -57,3 +57,8 @@ textarea {
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
+.erro {
+    color: rgb(255, 45, 45);
+    text-align: right;
+}
